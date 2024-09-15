@@ -1,0 +1,6 @@
+@StarWarsNerdApi_HostAddress = http://localhost:5112
+
+GET {{StarWarsNerdApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
