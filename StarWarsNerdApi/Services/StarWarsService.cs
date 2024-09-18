@@ -1,5 +1,6 @@
 using System.Net.Http;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using StarWarsNerdApi.Models;
 
 namespace StarWarsNerdApi.Services
@@ -35,6 +36,7 @@ namespace StarWarsNerdApi.Services
 
     public class StarWarsApiResponse<T>
     {
+        [JsonPropertyName("results")]
         public IEnumerable<T> Results { get; set; }
     }
 }

@@ -1,1 +1,38 @@
 StarWarsNerdApi/obj/*
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+starwars-nerd-frontend/node_modules
+starwars-nerd-frontend/.pnp
+starwars-nerd-frontend/.pnp.js
+starwars-nerd-frontend/.yarn/install-state.gz
+
+# testing
+starwars-nerd-frontend/coverage
+
+# next.js
+starwars-nerd-frontend/.next/
+starwars-nerd-frontend/out/
+
+# production
+starwars-nerd-frontend/build
+
+# misc
+starwars-nerd-frontend/.DS_Store
+starwars-nerd-frontend/*.pem
+
+# debug
+starwars-nerd-frontend/npm-debug.log*
+starwars-nerd-frontend/yarn-debug.log*
+starwars-nerd-frontend/yarn-error.log*
+
+# local env files
+starwars-nerd-frontend/.env*.local
+
+# vercel
+starwars-nerd-frontend/.vercel
+
+# typescript
+starwars-nerd-frontend/*.tsbuildinfo
+starwars-nerd-frontend/next-env.d.ts
